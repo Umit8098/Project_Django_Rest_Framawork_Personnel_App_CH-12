@@ -5,11 +5,11 @@
 
 <div align="center">
   <h3>
-    <a href="umit8100.pythonanywhere.com/">
+    <a href="https://umit8100.pythonanywhere.com/">
       Demo
     </a>
      | 
-    <a href="umit8100.pythonanywhere.com/">
+    <a href="https://umit8100.pythonanywhere.com/">
       Project
     </a>
  
