@@ -56,7 +56,7 @@
 
 ---
 
-![screenshot](project_screenshot/user_password_change.png)
+![screenshot](Personnel_App.jpg)
 
 ---
 
@@ -130,23 +130,26 @@ DJANGO_LOG_LEVEL=INFO
 ```
 
 ## About This Project
-- This is a flight booking application.
-- staff_users can perform CRUD (Create-Read-Update_Delete) operations for flights.
-- staff_users can view reservations on all flights (including past flights) with their passengers.
-- Users can anonymously view flights from the current time. 
-- To create a reservation, they must register and log in to the application. 
-- Users can perform CRUD (Create-Read-Update_Delete) operations on their own reservations.
-- Users can change their login passwords.
+- Personnel registration/management system API service.
+- dj-rest-auth for User Authentication..
+- super_user/staff_user (CRUD), user (DETAIL, UPDATE for own Profile objects)..
+- Creating a Profile for each user by expanding the Default User model.
+- permissions definitions between super_user, staff_user, user;
+   (Only the staff_user or super_user who created a created user can update it. Only super_user can delete.)
+- Separate environment settings for production and development.
+- Using Postgresql database in production environment.
 
 <hr>
 
-- Bu bir uçuş rezervasyon uygulamasıdır.
-- staff_user'lar uçuşlar için CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
-- staff_user'lar tüm uçuşlardaki (geçmiş uçuşlar dahil) rezervasyonları yolcuları ile birlikte görüntüleyebilir.
-- Kullanıcılar anonim olarak şimdiki zamandan sonraki uçuşları görüntüleyebilirler. 
-- Rezervasyon oluşturmak için uygulamaya kayıt olup giriş yapmaları gerekir. 
-- Kullanıcılar kendi rezervasyonlarında CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
-- Kullanıcılar giriş şifrelerini değiştirebilirler.
+- Personel kayıt/yönetim sistemi API servisi.
+- User Authentication için dj-rest-auth..
+- super_user/staff_user (CRUD), user (Kendi Profile objeleri için DETAİL, UPDATE)..
+- Default User modelini genişleterek her user için bir Profile oluşturulması..
+- super_user, staff_user, user arasında permissions tanımlamaları;
+   (create edilen bir user'ı sadece create eden staff_user veya super_user update edebilsin. 
+    Sadece super_user delete edebilsin.) 
+- Production ve development için ayrı ortam ayarları.
+- Production ortamında postgresql database kullanımı.
 
 ## Acknowledgements
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
