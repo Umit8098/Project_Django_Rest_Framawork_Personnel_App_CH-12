@@ -1,15 +1,15 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Project_Django_Rest_Framework_Blog_App</h1>
+<h1 align="center">Project_Django_Rest_Framework_Personnel_App</h1>
 
 
 <div align="center">
   <h3>
-    <a href="https://umit8114.pythonanywhere.com/">
+    <a href="umit8100.pythonanywhere.com/">
       Demo
     </a>
      | 
-    <a href="https://umit8114.pythonanywhere.com/">
+    <a href="umit8100.pythonanywhere.com/">
       Project
     </a>
  
@@ -32,20 +32,44 @@
 
 ## Overview
 
-![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-1.gif)
+![screenshot](project_screenshot/Flight_App_1.gif)
 
 ---
 
-![screenshot](project_screenshot/Blog_App_RF_CH-12_V.02-2.gif)
+![screenshot](project_screenshot/Flight_App_2.gif)
 
+---
+
+![screenshot](project_screenshot/user_register.png)
+
+---
+
+![screenshot](project_screenshot/user_detail.png)
+
+---
+
+![screenshot](project_screenshot/user_login.png)
+
+---
+
+![screenshot](project_screenshot/user_logout.png)
+
+---
+
+![screenshot](project_screenshot/user_password_change.png)
+
+---
 
 ## Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Djago Rest Framework
-- dj-rest-auth
-- drf-nested-routers
+- Swagger
+- Debug Toolbar
+- Logging
+- Redoc
+- PostgreSQL
 
 ## How To Use
 
@@ -65,11 +89,11 @@ Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git
+$ git clone https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git
 
 # Install dependencies
     $ python -m venv env
-    $ python3 -m venv env (for macOs/linux OS)
+    $ python3.10 -m venv env (for macOs/linux OS)
     $ env/Scripts/activate (for win OS)
     $ source env/bin/activate (for macOs/linux OS)
     $ pip install -r requirements.txt
@@ -84,6 +108,21 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App
 
 SECRET_KEY =123456789abcdefg...
 
+# for development(dev) environments
+DEBUG =True
+
+# for product(prod) environments
+SQL_DATABASE={DB_NAME}
+SQL_USER={DB_USER_NAME}
+SQL_PASSWORD={DB_PASSWORD}
+SQL_HOST=localhost
+SQL_PORT=5432
+
+# for choices environment
+ENV_NAME =dev
+# ENV_NAME =prod
+
+DJANGO_LOG_LEVEL=INFO
 """
 
 # Run the app
@@ -91,17 +130,26 @@ SECRET_KEY =123456789abcdefg...
 ```
 
 ## About This Project
-- This is an API service for a blog application built with Django Rest Framework.
-- Users can register, write blogs, comment on blogs and like them.
+- This is a flight booking application.
+- staff_users can perform CRUD (Create-Read-Update_Delete) operations for flights.
+- staff_users can view reservations on all flights (including past flights) with their passengers.
+- Users can anonymously view flights from the current time. 
+- To create a reservation, they must register and log in to the application. 
+- Users can perform CRUD (Create-Read-Update_Delete) operations on their own reservations.
+- Users can change their login passwords.
 
 <hr>
 
-- Bu, Django Rest Framework ile oluşturulmuş bir blog uygulamasının API servisidir.
-- Kullanıcılar kayıt olup, blog yazabilir, yazılan bloglara yorum yapabilir, beğeni yapabilirler.
+- Bu bir uçuş rezervasyon uygulamasıdır.
+- staff_user'lar uçuşlar için CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
+- staff_user'lar tüm uçuşlardaki (geçmiş uçuşlar dahil) rezervasyonları yolcuları ile birlikte görüntüleyebilir.
+- Kullanıcılar anonim olarak şimdiki zamandan sonraki uçuşları görüntüleyebilirler. 
+- Rezervasyon oluşturmak için uygulamaya kayıt olup giriş yapmaları gerekir. 
+- Kullanıcılar kendi rezervasyonlarında CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
+- Kullanıcılar giriş şifrelerini değiştirebilirler.
 
 ## Acknowledgements
-- [Authentication](https://dj-rest-auth.readthedocs.io/en/latest/) - dj-rest-auth
-- [Routers](https://github.com/alanjds/drf-nested-routers) - drf-nested-routers
+- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - Projede kullanılan system logging modül'ü.
 
 ## Contact
 
