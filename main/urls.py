@@ -28,9 +28,9 @@ from django.conf.urls.static import static
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Taslak Project-Flight Reservation API",
-      default_version='v1',
-      description="Taslak Project-Flight Reservation API project provides flight and reservation info",
+      title="Taslak Project-Personnel Application API",
+      default_version='V.01',
+      description="Taslak Project-Personnel Application API, project provides personnel management info",
       terms_of_service="#",
       contact=openapi.Contact(email="umitarat8098@gmail.com"),
       license=openapi.License(name="BSD License"),
