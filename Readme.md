@@ -40,7 +40,7 @@
 
 ---
 
-![screenshot](project_screenshot/personnel_app.png)
+![screenshot](project_screenshot/personnel_app.gif)
 
 
 
