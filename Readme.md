@@ -32,7 +32,7 @@
 
 ## Overview
 
-![screenshot](project_screenshot/Flight_App_1.gif)
+![screenshot](project_screenshot/Personnel_swagger.gif)
 
 ---
 
