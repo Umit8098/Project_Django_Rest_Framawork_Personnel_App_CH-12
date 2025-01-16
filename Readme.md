@@ -40,25 +40,9 @@
 
 ---
 
-![screenshot](project_screenshot/user_register.png)
+![screenshot](project_screenshot/personnel_app.png)
 
----
 
-![screenshot](project_screenshot/user_detail.png)
-
----
-
-![screenshot](project_screenshot/user_login.png)
-
----
-
-![screenshot](project_screenshot/user_logout.png)
-
----
-
-![screenshot](Personnel_App.jpg)
-
----
 
 ## Built With
 
