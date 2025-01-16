@@ -32,7 +32,7 @@
 
 ## Overview
 
-![screenshot](project_screenshot/Personnel_swagger.gif)
+![screenshot](project_screenshot/personnel_swagger.gif)
 
 ---
 
