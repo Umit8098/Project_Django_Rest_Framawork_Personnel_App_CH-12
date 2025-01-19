@@ -31,15 +31,15 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
+- Personnel app project swagger and redoc
 ![screenshot](project_screenshot/personnel_swagger.gif)
 
 ---
-
+- User/Authentication app testing on Postman
 ![screenshot](project_screenshot/user_authentication.gif)
 
 ---
-
+- Personnel app testing on Postman
 ![screenshot](project_screenshot/personnel_app.gif)
 
 
