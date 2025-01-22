@@ -42,6 +42,11 @@
 - Personnel app testing on Postman
 ![screenshot](project_screenshot/personnel_app.gif)
 
+---
+- Project ER Diagram
+![screenshot](project_erd.png)
+
+---
 
 
 ## Built With
