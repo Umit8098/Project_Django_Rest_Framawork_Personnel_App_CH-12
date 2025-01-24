@@ -3,7 +3,7 @@
 <h1 align="center">Project_Django_Rest_Framework_Personnel_App</h1>
 
 
-<div align="center">
+<!-- <div align="center">
   <h3>
     <a href="https://umit8100.pythonanywhere.com/">
       Demo
@@ -14,13 +14,15 @@
     </a>
  
   </h3>
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
+- [API Documentation](#api-documentation)
+- [API Testing](#api-testing)
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
@@ -28,7 +30,38 @@
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
-<!-- OVERVIEW -->
+## API Documentation
+
+Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
+
+- [Swagger Dokümantasyonu](https://umit8100.pythonanywhere.com/swagger/)
+- "Swagger Dokümantasyonu Görseli": API endpoint'lerini kolayca test etmenizi sağlayan bir arayüz.
+<!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
+<img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
+
+  
+- [RedocDokümantasyonu](https://umit8100.pythonanywhere.com/redoc/)
+- "Redoc Dokümantasyonu Görseli": API yapısını detaylı ve düzenli bir şekilde sunan bir dokümantasyon aracı.
+<!-- ![Redoc_Arayüzü](project_screenshot/Redoc_Dokümantasyonu_Görseli.png) -->
+<img src="project_screenshot/Redoc_Dokümantasyonu_Görseli.png" alt="Redoc Arayüzü" width="400"/>
+
+
+<!-- - Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz. -->
+**Not:** Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
+
+- Swagger ve Redoc dokümantasyonlarıyla birlikte, API'leri test etmek için Postman koleksiyonumuzu kullanabilirsiniz. [Stock Management API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9c7e9dbb-cadb-4cb7-bb41-7399ad499c3e?action=share&creator=17531143)
+
+## API Testing
+
+API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+
+1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
+2. Bu [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9c7e9dbb-cadb-4cb7-bb41-7399ad499c3e?action=share&creator=17531143) indirin ve içe aktarın.
+3. API'leri Postman üzerinden test etmeye başlayın.
+
+**Postman Collection Linki:**  
+[Flight Reservation API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9c7e9dbb-cadb-4cb7-bb41-7399ad499c3e?action=share&creator=17531143)
+
 
 ## Overview
 - Personnel app project swagger and redoc
