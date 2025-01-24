@@ -101,6 +101,9 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 <!-- This is an example, please update according to your application -->
 
+- For online demo: [Swagger](https://umit8100.pythonanywhere.com/swagger/) veya [Redoc](https://umit8103.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
+
+
 To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git) 
 
 When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
@@ -108,6 +111,8 @@ When installing the required packages in the requirements.txt file, review the p
 Complete the installation by uncommenting the appropriate package.
 
 ---
+
+- Çevrimiçi demo için: [Swagger](https://umit8100.pythonanywhere.com/swagger/) veya [Redoc](https://umit8100.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
 
 requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
 
@@ -178,9 +183,12 @@ DJANGO_LOG_LEVEL=INFO
 - Production ortamında postgresql database kullanımı.
 
 ## Acknowledgements
+- [Django Rest Framework](https://www.django-rest-framework.org/)
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
 - [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
 - [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul 
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication
+
 
 ## Contact
 
