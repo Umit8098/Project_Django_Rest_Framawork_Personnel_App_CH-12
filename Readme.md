@@ -134,12 +134,14 @@ Personnel App, kullanıcıların personel kayıtlarını yönetebileceği ve yet
 
 ---
 
-- API documentation is detailed with Swagger and Redoc. You can access the relevant links via [Swagger](https://umit8100.pythonanywhere.com/swagger/) and [Redoc](https://umit8100.pythonanywhere.com/redoc/).
+- API documentation detailed with Swagger and Redoc. You can access the documentation via the links below:  
+  - [Swagger](https://umit8100.pythonanywhere.com/swagger/)  
+  - [Redoc](https://umit8100.pythonanywhere.com/redoc/)
 
-- Personnel App is a modern backend application developed for users to manage the stock system and provide easy integration with API documentation.
-- Provides CRUD operations specific to users and staff roles.
+- Personnel App is a modern backend application developed for users to register and manage personnel.
+- Provides CRUD operations specific to user and staff roles.
+- Supports more detailed editing of user information with extended profile management.
 - Swagger and Redoc were used for API documentation.
-
 
 
 ## Built With
