@@ -2,6 +2,10 @@
 
 <h1 align="center">Project_Django_Rest_Framework_Personnel_App</h1>
 
+<p align="center"><strong>👥 A modern backend application that provides personnel management and authentication processes 👥<strong></p>
+
+<!-- <p align="center">👥 Personel yönetimi ve kimlik doğrulama işlemlerini sağlayan modern bir backend uygulaması 👥</p> -->
+
 
 <!-- <div align="center">
   <h3>
@@ -24,11 +28,16 @@
 - [API Documentation](#api-documentation)
 - [API Testing](#api-testing)
 - [Overview](#overview)
+  - [Project Swagger and Redoc Documentation Visual](#project-swagger-and-redoc-documentation-visual)
+  - [User Authentication and Authorization](#user-authentication-and-authorization)
+  - [Personnel Management Test](#personnel-management-test)
+  - [Project ER Diagram](#project-er-diagram)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
   - [How to Install and Run](#how-to-install-and-run)
   - [Test User Information](#test-user-information)
 - [About This Project](#about-this-project)
+- [Key Features](#key-features)
 - [Contact](#contact)
 
 ## API Documentation
@@ -38,8 +47,9 @@ You can access the detailed API documentation of the project from the links belo
 - [Swagger Documentation](https://umit8100.pythonanywhere.com/swagger/)
 <!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
-➡ Interface that allows you to easily test API endpoints.
+➡ Interface where you can easily test API endpoints.
 
+---
   
 - [Redoc Documentation](https://umit8100.pythonanywhere.com/redoc/)
 <!-- ![Redoc_Arayüzü](project_screenshot/Redoc_Dokümantasyonu_Görseli.png) -->
@@ -69,27 +79,30 @@ To test APIs via Postman, you can follow the steps below:
 
 
 ## Overview
-- Project Swagger and Redoc Documentation Visual
+
+### Project Swagger and Redoc Documentation Visual
 <!-- ![screenshot](project_screenshot/personnel_swagger.gif) -->
 <img src="project_screenshot/personnel_swagger.gif" alt="Project Swagger and Redoc Documentation Visual" width="400"/>
 ➡ Interface that allows you to easily test API endpoints.
 
 ---
 
-- User/Authentication app testing on Postman
+### User Authentication and Authorization
 <!-- ![screenshot](project_screenshot/user_authentication.gif) -->
 <img src="project_screenshot/user_authentication.gif" alt="User/Authentication app testing on Postman" width="400"/>
-➡ User verification and authorization test screen.
+➡ Testing user authentication and authorization processes with Postman.
 
 ---
 
-- Personnel app testing on Postman
+### Personnel Management Test
 <!-- ![screenshot](project_screenshot/personnel_app.gif) -->
 <img src="project_screenshot/personnel_app.gif" alt="Personnel app testing on Postman" width="400"/>
-➡ Screen for testing personnel app with Postman.
+➡ Screen for testing personnel management operations with Postman.
+
 
 ---
-- Project ER Diagram
+
+### Project ER Diagram
 <!-- ![screenshot](project_erd.png) -->
 <img src="project_erd.png" alt="Project ER Diagram" width="400"/>
 ➡ ERD diagram showing the application's data model relationships.
@@ -173,6 +186,7 @@ Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin.
     SQL_HOST = localhost
     SQL_PORT = 5432
     
+    # Logging level
     DJANGO_LOG_LEVEL = WARNING
     ```
 
@@ -203,7 +217,7 @@ This user can only view inventory and add tasks.
 - Separate environment settings for production and development.
 - Using Postgresql database in production environment.
 
-<hr>
+---
 
 - Personel kayıt/yönetim sistemi API servisi.
 - User Authentication için dj-rest-auth..
@@ -214,6 +228,26 @@ This user can only view inventory and add tasks.
     Sadece super_user delete edebilsin.) 
 - Production ve development için ayrı ortam ayarları.
 - Production ortamında postgresql database kullanımı.
+
+
+## Key Features
+
+- **Personnel Management:** Adding, updating and deleting personnel information.
+- **Authorization:** Different authorization levels for super user, staff and normal user.
+- **User Profiles:** Extended profile management for each user.
+- **API Documentation:** Extensive documentation with Swagger and Redoc.
+- **Data Filtering:** Advanced querying opportunity with django-filter.
+- **PostgreSQL Support:** Strong database support in the production environment.
+
+---
+
+- **Personel Yönetimi:** Personel bilgilerini ekleme, güncelleme ve silme işlemleri.
+- **Yetkilendirme:** Süper kullanıcı, staff ve normal kullanıcı için farklı yetki seviyeleri.
+- **Kullanıcı Profilleri:** Her kullanıcı için genişletilmiş profil yönetimi.
+- **API Dokümantasyonu:** Swagger ve Redoc ile kapsamlı dokümantasyon.
+- **Veri Filtreleme:** django-filter ile gelişmiş sorgulama imkanı.
+- **PostgreSQL Desteği:** Production ortamında güçlü veritabanı desteği.
+
 
 
 ## Contact
