@@ -26,8 +26,9 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
+  - [How to Install and Run](#how-to-install-and-run)
+  - [Test User Information](#test-user-information)
 - [About This Project](#about-this-project)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ## API Documentation
@@ -136,47 +137,61 @@ requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/ma
 
 Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
 
-```bash
-# Clone this repository
-$ git clone https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git
+### How to Install and Run
 
-# Install dependencies
-    $ python -m venv env
-    $ python3.10 -m venv env (for macOs/linux OS)
-    $ env/Scripts/activate (for win OS)
-    $ source env/bin/activate (for macOs/linux OS)
-    $ pip install -r requirements.txt
-    $ python manage.py migrate (for win OS)
-    $ python3 manage.py migrate (for macOs/linux OS)
+1. **clone the repository:**
+    ```bash
+    git clone https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git
+    ```
 
-# Create and Edit .env
-# Add Your SECRET_KEY in .env file
+2. **Create and Activate Virtual Environment:**
+    ```bash
+    python -m venv env
+    env/Scripts/activate (Windows)
+    source env/bin/activate (macOS/Linux)
+    ```
 
-"""
-# example .env;
+3. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-SECRET_KEY =123456789abcdefg...
+4. **Update Database with Migrations:**
+    ```bash
+    python manage.py migrate
+    ```
 
-# for development(dev) environments
-DEBUG =True
+5. **Create the .env File:**  
+   Add the necessary settings:
+    ```
+    SECRET_KEY = "your_secret_key_here"
+    ENV = development
+    # PostgreSQL
+    SQL_DATABASE = your_database_name
+    SQL_USER = your_database_user
+    SQL_PASSWORD = your_database_password
+    SQL_HOST = localhost
+    SQL_PORT = 5432
+    
+    DJANGO_LOG_LEVEL = WARNING
+    ```
 
-# for product(prod) environments
-SQL_DATABASE={DB_NAME}
-SQL_USER={DB_USER_NAME}
-SQL_PASSWORD={DB_PASSWORD}
-SQL_HOST=localhost
-SQL_PORT=5432
+6. **Run the Application:**
+    ```bash
+    python manage.py runserver
+    ```
 
-# for choices environment
-ENV_NAME =dev
-# ENV_NAME =prod
+Now your application will run at `http://127.0.0.1:8000/`.
 
-DJANGO_LOG_LEVEL=INFO
-"""
+### Test User Information
 
-# Run the app
-    $ python manage.py runserver
-```
+For the live demo, you can use the following test user information:
+- **Username:** testuser  
+- **Password:** testpassword123  
+- **Email:** testuser@gmail.com  
+
+This user can only view inventory and add tasks.
+
 
 ## About This Project
 - Personnel registration/management system API service.
@@ -199,13 +214,6 @@ DJANGO_LOG_LEVEL=INFO
     Sadece super_user delete edebilsin.) 
 - Production ve development için ayrı ortam ayarları.
 - Production ortamında postgresql database kullanımı.
-
-## Acknowledgements
-- [Django Rest Framework](https://www.django-rest-framework.org/)
-- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
-- [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
-- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul 
-- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication
 
 
 ## Contact
