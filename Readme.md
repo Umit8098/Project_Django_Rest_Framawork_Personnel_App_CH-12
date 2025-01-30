@@ -32,34 +32,38 @@
 
 ## API Documentation
 
-Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
+You can access the detailed API documentation of the project from the links below:
 
-- [Swagger Dokümantasyonu](https://umit8100.pythonanywhere.com/swagger/)
-- "Swagger Dokümantasyonu Görseli": API endpoint'lerini kolayca test etmenizi sağlayan bir arayüz.
+- [Swagger Documentation](https://umit8100.pythonanywhere.com/swagger/)
 <!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
+➡ Interface that allows you to easily test API endpoints.
 
   
-- [RedocDokümantasyonu](https://umit8100.pythonanywhere.com/redoc/)
-- "Redoc Dokümantasyonu Görseli": API yapısını detaylı ve düzenli bir şekilde sunan bir dokümantasyon aracı.
+- [Redoc Documentation](https://umit8100.pythonanywhere.com/redoc/)
 <!-- ![Redoc_Arayüzü](project_screenshot/Redoc_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Redoc_Dokümantasyonu_Görseli.png" alt="Redoc Arayüzü" width="400"/>
+➡ Documentation tool that presents the API structure in a detailed and organized way.
 
+---
 
 <!-- - Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz. -->
+**Notes:** You can access Swagger and Redoc documentation without any user login.
+
 **Not:** Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
 
-- Swagger ve Redoc dokümantasyonlarıyla birlikte, API'leri test etmek için Postman koleksiyonumuzu kullanabilirsiniz. [Personnel App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9af7bfff-e9be-4aae-b6d4-e6f60eb56aed?action=share&creator=17531143)
+- Along with Swagger and Redoc documentation, you can use our Postman collection to test APIs.
+ [Personnel App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9af7bfff-e9be-4aae-b6d4-e6f60eb56aed?action=share&creator=17531143)
 
 ## API Testing
 
-API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+To test APIs via Postman, you can follow the steps below:
 
-1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
-2. Bu [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9af7bfff-e9be-4aae-b6d4-e6f60eb56aed?action=share&creator=17531143) indirin ve içe aktarın.
-3. API'leri Postman üzerinden test etmeye başlayın.
+1. Install Postman (if not installed): [Download Postman](https://www.postman.com/downloads/).
+2. This [Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9af7bfff-e9be-4aae-b6d4-e6f60eb56aed?action=share&creator=17531143) Download and import.
+3. Start testing APIs via Postman.
 
-**Postman Collection Linki:**  
+**Postman Collection Link:**  
 [Personnel App API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-9af7bfff-e9be-4aae-b6d4-e6f60eb56aed?action=share&creator=17531143)
 
 
@@ -67,23 +71,36 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 - Project Swagger and Redoc Documentation Visual
 <!-- ![screenshot](project_screenshot/personnel_swagger.gif) -->
 <img src="project_screenshot/personnel_swagger.gif" alt="Project Swagger and Redoc Documentation Visual" width="400"/>
+➡ Interface that allows you to easily test API endpoints.
 
 ---
+
 - User/Authentication app testing on Postman
 <!-- ![screenshot](project_screenshot/user_authentication.gif) -->
 <img src="project_screenshot/user_authentication.gif" alt="User/Authentication app testing on Postman" width="400"/>
+➡ User verification and authorization test screen.
 
 ---
+
 - Personnel app testing on Postman
 <!-- ![screenshot](project_screenshot/personnel_app.gif) -->
 <img src="project_screenshot/personnel_app.gif" alt="Personnel app testing on Postman" width="400"/>
+➡ Screen for testing personnel app with Postman.
 
 ---
 - Project ER Diagram
 <!-- ![screenshot](project_erd.png) -->
 <img src="project_erd.png" alt="Project ER Diagram" width="400"/>
+➡ ERD diagram showing the application's data model relationships.
 
 ---
+
+- API documentation is detailed with Swagger and Redoc. You can access the relevant links via [Swagger](https://umit8103.pythonanywhere.com/swagger/) and [Redoc](https://umit8103.pythonanywhere.com/redoc/).
+
+- Stock Management App is a modern backend application developed for users to manage the stock system and provide easy integration with API documentation.
+- Provides CRUD operations specific to users and staff roles.
+- Swagger and Redoc were used for API documentation.
+
 
 
 ## Built With
