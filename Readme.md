@@ -83,6 +83,7 @@ To test APIs via Postman, you can follow the steps below:
 ### Project Swagger and Redoc Documentation Visual
 <!-- ![screenshot](project_screenshot/personnel_swagger.gif) -->
 <img src="project_screenshot/personnel_swagger.gif" alt="Project Swagger and Redoc Documentation Visual" width="400"/>
+
 ➡ Interface that allows you to easily test API endpoints.
 
 ---
@@ -90,6 +91,7 @@ To test APIs via Postman, you can follow the steps below:
 ### User Authentication and Authorization
 <!-- ![screenshot](project_screenshot/user_authentication.gif) -->
 <img src="project_screenshot/user_authentication.gif" alt="User/Authentication app testing on Postman" width="400"/>
+
 ➡ Testing user authentication and authorization processes with Postman.
 
 ---
@@ -97,14 +99,15 @@ To test APIs via Postman, you can follow the steps below:
 ### Personnel Management Test
 <!-- ![screenshot](project_screenshot/personnel_app.gif) -->
 <img src="project_screenshot/personnel_app.gif" alt="Personnel app testing on Postman" width="400"/>
-➡ Screen for testing personnel management operations with Postman.
 
+➡ Screen for testing personnel management operations with Postman.
 
 ---
 
 ### Project ER Diagram
 <!-- ![screenshot](project_erd.png) -->
 <img src="project_erd.png" alt="Project ER Diagram" width="400"/>
+
 ➡ ERD diagram showing the application's data model relationships.
 
 ---
