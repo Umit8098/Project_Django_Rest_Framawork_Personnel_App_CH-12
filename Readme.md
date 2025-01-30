@@ -46,6 +46,7 @@ You can access the detailed API documentation of the project from the links belo
 - [Swagger Documentation](https://umit8100.pythonanywhere.com/swagger/)
 <!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
+
 ➡ Interface where you can easily test API endpoints.
 
 ---
@@ -53,6 +54,7 @@ You can access the detailed API documentation of the project from the links belo
 - [Redoc Documentation](https://umit8100.pythonanywhere.com/redoc/)
 <!-- ![Redoc_Arayüzü](project_screenshot/Redoc_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Redoc_Dokümantasyonu_Görseli.png" alt="Redoc Arayüzü" width="400"/>
+
 ➡ Documentation tool that presents the API structure in a detailed and organized way.
 
 ---
