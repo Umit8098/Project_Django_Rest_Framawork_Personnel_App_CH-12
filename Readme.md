@@ -36,7 +36,6 @@
 - [How To Use](#how-to-use)
   - [How to Install and Run](#how-to-install-and-run)
   - [Test User Information](#test-user-information)
-- [About This Project](#about-this-project)
 - [Key Features](#key-features)
 - [Contact](#contact)
 
@@ -79,6 +78,27 @@ To test APIs via Postman, you can follow the steps below:
 
 
 ## Overview
+
+Personnel App is a modern backend application where users can manage personnel records and perform authorization-based transactions. Key features of the application:
+
+- **User Authorization:** Different authorization levels for staff, superuser and normal user.
+- **Personnel Management:** Personnel adding, updating, deleting and listing operations.
+- **Extended Profile Management:** Profile creation and editing for each user.
+- **Swagger and Redoc Support:** Easy testing and integration with API documentation.
+- **PostgreSQL Support:** Reliable database management in the production environment.
+- **Environment Settings:** Separate environment settings management for production and development.
+
+---
+
+Personnel App, kullanıcıların personel kayıtlarını yönetebileceği ve yetki bazlı işlemler yapabileceği modern bir backend uygulamasıdır. Uygulamanın temel özellikleri:
+
+- **Kullanıcı Yetkilendirme:** staff, süper kullanıcı ve normal kullanıcı için farklı yetki seviyeleri.
+- **Personel Yönetimi:** Personel ekleme, güncelleme, silme ve listeleme işlemleri.
+- **Genişletilmiş Profil Yönetimi:** Her kullanıcı için profil oluşturulması ve düzenleme işlemleri.
+- **Swagger ve Redoc Desteği:** API dokümantasyonu ile kolay test ve entegrasyon.
+- **PostgreSQL Desteği:** Production ortamında güvenilir veritabanı yönetimi.
+- **Environment Settings:** Production ve development için ayrı ortam ayarlarları yönetimi
+
 
 ### Project Swagger and Redoc Documentation Visual
 <!-- ![screenshot](project_screenshot/personnel_swagger.gif) -->
@@ -210,29 +230,6 @@ For the live demo, you can use the following test user information:
 This user can only view inventory and add tasks.
 
 
-## About This Project
-- Personnel registration/management system API service.
-- dj-rest-auth for User Authentication..
-- super_user/staff_user (CRUD), user (DETAIL, UPDATE for own Profile objects)..
-- Creating a Profile for each user by expanding the Default User model.
-- permissions definitions between super_user, staff_user, user;
-   (Only the staff_user or super_user who created a created user can update it. Only super_user can delete.)
-- Separate environment settings for production and development.
-- Using Postgresql database in production environment.
-
----
-
-- Personel kayıt/yönetim sistemi API servisi.
-- User Authentication için dj-rest-auth..
-- super_user/staff_user (CRUD), user (Kendi Profile objeleri için DETAİL, UPDATE)..
-- Default User modelini genişleterek her user için bir Profile oluşturulması..
-- super_user, staff_user, user arasında permissions tanımlamaları;
-   (create edilen bir user'ı sadece create eden staff_user veya super_user update edebilsin. 
-    Sadece super_user delete edebilsin.) 
-- Production ve development için ayrı ortam ayarları.
-- Production ortamında postgresql database kullanımı.
-
-
 ## Key Features
 
 - **Personnel Management:** Adding, updating and deleting personnel information.
@@ -250,7 +247,6 @@ This user can only view inventory and add tasks.
 - **API Dokümantasyonu:** Swagger ve Redoc ile kapsamlı dokümantasyon.
 - **Veri Filtreleme:** django-filter ile gelişmiş sorgulama imkanı.
 - **PostgreSQL Desteği:** Production ortamında güçlü veritabanı desteği.
-
 
 
 ## Contact
