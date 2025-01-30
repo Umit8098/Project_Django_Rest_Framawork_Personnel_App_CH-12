@@ -95,9 +95,9 @@ To test APIs via Postman, you can follow the steps below:
 
 ---
 
-- API documentation is detailed with Swagger and Redoc. You can access the relevant links via [Swagger](https://umit8103.pythonanywhere.com/swagger/) and [Redoc](https://umit8103.pythonanywhere.com/redoc/).
+- API documentation is detailed with Swagger and Redoc. You can access the relevant links via [Swagger](https://umit8100.pythonanywhere.com/swagger/) and [Redoc](https://umit8100.pythonanywhere.com/redoc/).
 
-- Stock Management App is a modern backend application developed for users to manage the stock system and provide easy integration with API documentation.
+- Personnel App is a modern backend application developed for users to manage the stock system and provide easy integration with API documentation.
 - Provides CRUD operations specific to users and staff roles.
 - Swagger and Redoc were used for API documentation.
 
@@ -107,19 +107,20 @@ To test APIs via Postman, you can follow the steps below:
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- Djago Rest Framework
-- Swagger
-- Debug Toolbar
-- Logging
-- Redoc
-- PostgreSQL
+- [Django Rest Framework](https://www.django-rest-framework.org/) - A powerful framework for developing REST APIs.
+- [Swagger And Redoc](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - API documentation and testing tools. 
+- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - A powerful tool for debugging operations.
+- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - User authentication and authorization. 
+- [django-filter](https://django-filter.readthedocs.io/en/stable/) - To facilitate data filtering operations.
+- PostgreSQL - High performance database for production environment.
+
 
 ## How To Use
 
 <!-- This is an example, please update according to your application -->
 
-- For online demo: [Swagger](https://umit8100.pythonanywhere.com/swagger/) veya [Redoc](https://umit8103.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
-
+- For online demo: You can take a look at the [Swagger](https://umit8100.pythonanywhere.com/swagger/) and [Redoc](https://umit8100.pythonanywhere.com/redoc/) interfaces.
 
 To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git) 
 
