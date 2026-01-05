@@ -19,20 +19,19 @@ Swagger/Redoc documentation and PostgreSQL support.
 <!-- <p align="center">👥 Personel yönetimi ve kimlik doğrulama işlemlerini sağlayan modern bir backend uygulaması 👥</p> -->
 
 
-<!-- <div align="center">
+<div align="center">
   <h3>
     <a href="https://umit8100.pythonanywhere.com/">
-      Demo
+      🖥️ Live Demo
     </a>
      | 
-    <a href="https://umit8100.pythonanywhere.com/">
-      Project
+    <a href="https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git">
+      📂 Project
     </a>
  
   </h3>
-</div> -->
+</div>
 
-<!-- TABLE OF CONTENTS -->
 
 ## Navigator
 
