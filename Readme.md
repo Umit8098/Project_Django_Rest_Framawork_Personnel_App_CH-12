@@ -1,8 +1,20 @@
 <!-- Please update value in the {}  -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Django-REST_Framework-success?logo=django" />
+  <img src="https://img.shields.io/badge/Auth-dj--rest--auth-orange" />
+  <img src="https://img.shields.io/badge/RBAC-Enabled-blue" />
+  <img src="https://img.shields.io/badge/API_Docs-Swagger%20%26%20Redoc-informational" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-336791?logo=postgresql" />
+</p>
 
-<h1 align="center">Project_Django_Rest_Framework_Personnel_App</h1>
+<h1 align="center">👥 Personnel Management REST API</h1>
 
-<p align="center"><strong>👥 A modern backend application that provides personnel management and authentication processes 👥<strong></p>
+<p align="center">
+<strong>
+Production-ready personnel management API with role-based authorization,
+Swagger/Redoc documentation and PostgreSQL support.
+</strong>
+</p>
 
 <!-- <p align="center">👥 Personel yönetimi ve kimlik doğrulama işlemlerini sağlayan modern bir backend uygulaması 👥</p> -->
 
@@ -22,9 +34,8 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
+## Navigator
 
-- [Table of Contents](#table-of-contents)
 - [API Documentation](#api-documentation)
 - [API Testing](#api-testing)
 - [Overview](#overview)
@@ -86,23 +97,12 @@ Personnel App is a modern backend application where users can manage personnel r
 - **User Authorization:** Different authorization levels for staff, superuser and normal user.
 - **Personnel Management:** Personnel adding, updating, deleting and listing operations.
 - **Extended Profile Management:** Profile creation and editing for each user.
-- **Swagger and Redoc Support:** Easy testing and integration with API documentation.
+- **Swagger & Redoc:** Easy testing and integration with API documentation.
 - **PostgreSQL Support:** Reliable database management in the production environment.
 - **Environment Settings:** Separate environment settings management for production and development.
 
----
 
-Personnel App, kullanıcıların personel kayıtlarını yönetebileceği ve yetki bazlı işlemler yapabileceği modern bir backend uygulamasıdır. Uygulamanın temel özellikleri:
-
-- **Kullanıcı Yetkilendirme:** staff, süper kullanıcı ve normal kullanıcı için farklı yetki seviyeleri.
-- **Personel Yönetimi:** Personel ekleme, güncelleme, silme ve listeleme işlemleri.
-- **Genişletilmiş Profil Yönetimi:** Her kullanıcı için profil oluşturulması ve düzenleme işlemleri.
-- **Swagger ve Redoc Desteği:** API dokümantasyonu ile kolay test ve entegrasyon.
-- **PostgreSQL Desteği:** Production ortamında güvenilir veritabanı yönetimi.
-- **Environment Settings:** Production ve development için ayrı ortam ayarlarları yönetimi
-
-
-### Project Swagger and Redoc Documentation Visual
+### Project Swagger & Redoc Documentation Visual
 <!-- ![screenshot](project_screenshot/personnel_swagger.gif) -->
 <img src="project_screenshot/personnel_swagger.gif" alt="Project Swagger and Redoc Documentation Visual" width="400"/>
 
@@ -169,13 +169,6 @@ When installing the required packages in the requirements.txt file, review the p
 
 Complete the installation by uncommenting the appropriate package.
 
----
-
-- Çevrimiçi demo için: [Swagger](https://umit8100.pythonanywhere.com/swagger/) veya [Redoc](https://umit8100.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
-
-requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
-
-Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
 
 ### How to Install and Run
 
@@ -242,15 +235,6 @@ This user can only view inventory and add tasks.
 - **API Documentation:** Extensive documentation with Swagger and Redoc.
 - **Data Filtering:** Advanced querying opportunity with django-filter.
 - **PostgreSQL Support:** Strong database support in the production environment.
-
----
-
-- **Personel Yönetimi:** Personel bilgilerini ekleme, güncelleme ve silme işlemleri.
-- **Yetkilendirme:** Süper kullanıcı, staff ve normal kullanıcı için farklı yetki seviyeleri.
-- **Kullanıcı Profilleri:** Her kullanıcı için genişletilmiş profil yönetimi.
-- **API Dokümantasyonu:** Swagger ve Redoc ile kapsamlı dokümantasyon.
-- **Veri Filtreleme:** django-filter ile gelişmiş sorgulama imkanı.
-- **PostgreSQL Desteği:** Production ortamında güçlü veritabanı desteği.
 
 
 ## Contact
