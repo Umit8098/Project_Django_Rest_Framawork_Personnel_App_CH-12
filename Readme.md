@@ -26,7 +26,7 @@ Swagger/Redoc documentation and PostgreSQL support.
     </a>
      | 
     <a href="https://github.com/Umit8098/Project_Django_Rest_Framawork_Personnel_App_CH-12.git">
-      📂 Project
+      📂 Repository
     </a>
  
   </h3>
